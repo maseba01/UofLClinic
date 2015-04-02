@@ -34,6 +34,7 @@ namespace Vaccines_and_Travel_Clinic.Models
 
         //[Secure]
         [Required]
+        [Range(typeof(decimal), "0", "150")]
         public int Age { get; set; }
 
         //[Secure]
