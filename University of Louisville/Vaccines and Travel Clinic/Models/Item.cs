@@ -16,6 +16,7 @@ namespace Vaccines_and_Travel_Clinic.Models
         public string Description { get; set; }
 
         [Required]
+        [Range(typeof(decimal), "0", "9999")]
         public int Count { get; set; }
 
         [Required]
