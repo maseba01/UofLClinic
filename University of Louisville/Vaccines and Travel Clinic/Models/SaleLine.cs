@@ -17,7 +17,6 @@ namespace Vaccines_and_Travel_Clinic.Models
         public int ItemID { get; set; }
 
         [Required]
-        [Range(typeof(decimal), "0", "9999")]
         public int Quantity { get; set; }
 
         [DataType(DataType.Currency)]
