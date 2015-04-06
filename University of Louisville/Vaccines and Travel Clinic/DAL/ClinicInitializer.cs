@@ -8,7 +8,7 @@ using System.Data.SqlTypes;
 
 namespace Vaccines_and_Travel_Clinic.DAL
 {
-    public class ClinicInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<ClinicContext>
+    public class ClinicInitializer : System.Data.Entity.DropCreateDatabaseAlways<ClinicContext>
     {
         protected override void Seed(ClinicContext context)
         {
