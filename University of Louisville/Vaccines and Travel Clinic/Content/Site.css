@@ -72,11 +72,8 @@ input[type="checkbox"].input-validation-error {
     padding-top: 50px;
 }
 
-img {
-  vertical-align: middle;
-}
 
-h3 {
+.picture-text {
     color: #303030;
     padding-left: 70px;
     display: block;

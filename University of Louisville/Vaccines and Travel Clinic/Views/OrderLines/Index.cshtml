@@ -116,8 +116,10 @@ else if (Request.IsAuthenticated && User.IsInRole("CanViewInventory"))
 </div>
 </div>
 
-<script>
-    $(document).ready(function () {
-        $('#table').DataTable();
-    });
-</script>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#table').DataTable();
+        });
+    </script>
+}
