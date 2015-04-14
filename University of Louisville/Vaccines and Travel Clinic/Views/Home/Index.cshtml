@@ -4,45 +4,25 @@
 
 <div class="row">&nbsp;</div>
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-                    <img src="http://uoflvaccinesandtravel.com/images/Travelgroup.jpg" alt="Travel Group" height="310px" width="440px">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Welcome to the International Vaccine and Travel Center</h1>
-              <p class="lead">Our team of specialists are trained to fulfill all your illness prevention needs.</p>
-              <a class="btn btn-large btn-primary" href="@Url.Action("Services", "Home")">View Our Services</a>
-            </div>
-          </div>
-        </div>
-@*        <div class="item">
-            <img src="http://uoflvaccinesandtravel.com/img/wwb-logo.JPG" alt="Water With Blessings Logo">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
-            </div>
-          </div>
-        </div>*@
-        <div class="item">
-            <img src="http://uoflvaccinesandtravel.com/img/ambulatory.jpeg" alt="">
+@Html.Partial("_Carousel")
 
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
-    </div><!-- /.carousel -->
+<section id="about" class="about-section">
+    <div class="col-md-4" id="healthcare">
+        <img class="img-circle center-block hidden-xs" src="~/Images/rsz_1sm_-_istock_8112453xxxlarge_-_health_care.jpg">
+        <h3><strong>Immunization</strong></h3>
+        <p class="img-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+    </div>
+    <div class="col-md-4" id="healthcare">
+        <img class="img-circle center-block hidden-xs" src="~/Images/rsz_1travel.jpg">
+        <h3><strong>Travel Assistance</strong></h3>
+        <p class="img-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+    </div>
+    <div class="col-md-4" id="healthcare">
+        <img class="img-circle center-block hidden-xs" src="~/Images/rsz_wwb-margarita.png">
+        <h3><strong>Civil Surgeon</strong></h3>
+        <p class="img-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."</p>
+    </div>
+</section>
 
 @*
 

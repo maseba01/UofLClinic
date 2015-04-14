@@ -178,6 +178,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\calendar.css" />
+    <Content Include="Content\carousel.css" />
     <Content Include="Content\foundation.css" />
     <Content Include="Content\local.css" />
     <Content Include="Content\normalize.css" />
@@ -191,11 +192,16 @@
     <Content Include="Images\Carrico_Ruth_lab.jpg" />
     <Content Include="Images\Christensen_Diana_lab.jpg" />
     <Content Include="Images\civilsurgeon.JPG" />
+    <Content Include="Images\clinic.png" />
     <Content Include="Images\Ford_Rebecca_lab.jpg" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\Peyrani_Paula_lab.jpg" />
     <Content Include="Images\Ramirez_Julio_lab.jpg" />
+    <Content Include="Images\rsz_1sm_-_istock_8112453xxxlarge_-_health_care.jpg" />
+    <Content Include="Images\rsz_1travel.jpg" />
+    <Content Include="Images\rsz_wwb-margarita.png" />
     <Content Include="Images\Travelgroup.jpg" />
+    <Content Include="Images\uofl3.jpg" />
     <Content Include="Images\website_pic3.jpg" />
     <Content Include="Images\Westhusino_Kelly_lab.jpg" />
     <Content Include="Images\Wiemken_Timothy_lab.jpg" />
@@ -446,6 +452,7 @@
     <Content Include="Views\Requests\Details.cshtml" />
     <Content Include="Views\Requests\Edit.cshtml" />
     <Content Include="Views\Requests\Index.cshtml" />
+    <Content Include="Views\Home\_Carousel.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
