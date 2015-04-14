@@ -153,6 +153,10 @@ else if (Request.IsAuthenticated && User.IsInRole("CanViewInventory"))
 </div>
 
 @section Scripts {
+
+@Scripts.Render("~/bundles/jquerydata")
+
+
     <script>
         $(document).ready(function () {
             $('#table').DataTable();
